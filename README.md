@@ -3,7 +3,7 @@
 This Python script facilitates the creation of a backdoored Docker image. It automates the process by downloading a specified reverse shell binary, embedding it into the Docker image, and configuring environment variables to establish a reverse shell connection. 
 This is a Python script that is going to help a user to create a Docker image with a backdoor. By doing so, it makes the process automatic by making use of a certain reversed shell binary, embedding it into the Docker image and setting environment variables to provide reverse shell connection. 
 
-> The script uses reverse shell component that was originally developed by [cr0hn - Dockerscan](https://github.com/cr0hn/dockerscan/blob/590a844418038d25e6649e609ef630868e0c9161/dockerscan/actions/image/modifiers/shells/reverse_shell.so).
+> The script uses reverse shell component that was originally developed by [Daniel Garcia (cr0hn) / Roberto Munoz - Dockerscan](https://github.com/cr0hn/dockerscan/blob/590a844418038d25e6649e609ef630868e0c9161/dockerscan/actions/image/modifiers/shells/reverse_shell.so).
 
 ## Background
 
