@@ -5,7 +5,7 @@ This is a Python script that is going to help a user to create a Docker image wi
 
 ## Background
 
-The motivation for developing this script stemmed from the lack of recent updates on the Dockerscan project; the last commit was made on May 27, 2020 ([view commit](https://github.com/cr0hn/dockerscan//commit/590a844418038d25e6649e609ef630868e0c9161). The need for a substitute that would be easy to use and work with the different versions of Python which was used by Dockerscan, allowed us to design one that is.
+The motivation for developing this script stemmed from the lack of recent updates on the Dockerscan project; the last commit was made on May 27, 2020 [view commit](https://github.com/cr0hn/dockerscan//commit/590a844418038d25e6649e609ef630868e0c9161). The need for a substitute that would be easy to use and work with the different versions of Python which was used by Dockerscan, allowed us to design one that is.
 
 ## Purpose
 
