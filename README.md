@@ -1,9 +1,15 @@
-# Tojanizedocker
+# Tojanizedocker - Docker Backdoor Image Creator (Based on Dockerscan)
 
-# Docker Backdoor Image Creator
+This Python script facilitates the creation of a backdoored Docker image. It automates the process by downloading a specified reverse shell binary, embedding it into the Docker image, and configuring environment variables to establish a reverse shell connection. 
+This is a Python script that is going to help a user to create a Docker image with a backdoor. By doing so, it makes the process automatic by making use of a certain reversed shell binary, embedding it into the Docker image and setting environment variables to provide reverse shell connection. The script is designed with the use of a reverse shell component that was originally developed by [cr0hn - Dockerscan](https://github.com/cr0hn/dockerscan/blob/590a844418038d25e6649e609ef630868e0c9161/dockerscan/actions/image/modifiers/shells/reverse_shell.so).
 
-This Python script automates the process of creating a backdoored Docker image by downloading a specified reverse shell binary, embedding it into a Docker image, and setting up environment variables to facilitate a reverse shell connection.
-[Dockerscan - Reverse shell](https://github.com/cr0hn/dockerscan/blob/590a844418038d25e6649e609ef630868e0c9161/dockerscan/actions/image/modifiers/shells/reverse_shell.so)
+## Background
+
+The motivation for developing this script stemmed from the lack of recent updates on the Dockerscan project; the last commit was made on May 27, 2020 ([view commit](https://github.com/cr0hn/dockerscan//commit/590a844418038d25e6649e609ef630868e0c9161). The need for a substitute that would be easy to use and work with the different versions of Python which was used by Dockerscan, allowed us to design one that is.
+
+## Purpose
+
+It is achieved by designing the software for educational purposes, enabling users to understand and demonstrate the operations of Docker image manipulation using `LD_PRELOAD`.
 
 ## How It Works
 
